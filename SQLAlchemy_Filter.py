@@ -88,7 +88,7 @@ Note
 match() uses a database-specific MATCH or CONTAINS function; its behavior will vary by backend and is not available on some backends such as SQLite.
 
 
-
+#----------------------------------------------------------------------------------------------------#
 Using Textual SQL:
 
 >>> session.query(User).filter(text("id<:value and name=:name")).\
@@ -105,6 +105,20 @@ Using Textual SQL:
 >>> stmt = stmt.columns(User.name, User.id, User.fullname, User.password)
 SQL>>> session.query(User).from_statement(stmt).params(name='ed').all()
 [<User(name='ed', fullname='Ed Jones', password='f8s7ccs')>]
+
+#----------------------------------------------------------------------------------------------------#
+SQLAlchemy support JOIN operations but Django not??
+#----------------------------------------------------------------------------------------------------#
+
+
+
+
+
+
+
+
+
+
 
 
 
