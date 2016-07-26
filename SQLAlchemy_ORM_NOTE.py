@@ -1,7 +1,7 @@
 
 '''
-[The SQLAlchemy Core] is separate from the ORM and is a full database abstraction layer in its own right, and includes an extensible 
-Python-based [SQL expression language], schema metadata, connection pooling, type coercion, and custom types.
+[The SQLAlchemy Core] is separate from the ORM and is a full database abstraction layer in its own right, and includes 
+an extensible  Python-based [SQL expression language], schema metadata, connection pooling, type coercion, and custom types.
 --------------------------------------------------------
  The SQLAlchemy Core ==>> ORM + SQL expression language
 --------------------------------------------------------
@@ -9,7 +9,7 @@ Python-based [SQL expression language], schema metadata, connection pooling, typ
 
 #--------------------------SQLAlchemy直接参考 => http://docs.sqlalchemy.org/en/latest/orm/tutorial.html----------------------------#
 
-#------------------------------------SQLAlchemy's ORM doc is a little mess??->troublesome to NOTE it!----------------------------------#
+#------------------------------------SQLAlchemy's ORM doc is a little mess??->troublesome to NOTE it!------------------------------#
 
 #---------------------------熟练使用各种框架是很重要,但绝不是写代码的最重点,只是工具而已.python代码本身更重要----------------------#
 
