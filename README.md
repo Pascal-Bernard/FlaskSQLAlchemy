@@ -1,2 +1,2 @@
-# Flask + SQLAlchemy_ORM = Django
+# Flask + SQLAlchemy ORM
 
