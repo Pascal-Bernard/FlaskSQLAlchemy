@@ -1,0 +1,3 @@
+from monitor_strategt_mgt import MonitorStrategyManager
+
+monitor_strategy_manager = MonitorStrategyManager()
