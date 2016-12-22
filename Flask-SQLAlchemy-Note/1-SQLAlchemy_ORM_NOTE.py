@@ -4,8 +4,10 @@
 an extensible  Python-based [SQL expression language], schema metadata, connection pooling, type coercion, and custom types.
 --------------------------------------------------------
  The SQLAlchemy Core ==>> ORM + SQL expression language
+ # 但是，与其使用SQLAlchemy的SQL expression language，不如自己直接写SQL了，不是吗？？所以它其实用处不大吧？！
 --------------------------------------------------------
 '''
+
 
 #--------------------------SQLAlchemy直接参考 => http://docs.sqlalchemy.org/en/latest/orm/tutorial.html----------------------------#
 
